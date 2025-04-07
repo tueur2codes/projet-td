@@ -1,0 +1,25 @@
+body {
+    padding: 20px;
+    margin: 40px;
+    font-family: 'Arial', sans-serif; /* Utilise Arial comme police principale */
+    background-color: #fadbc9;        /* Couleur de fond sombre */
+    color: #000000;                  /* Couleur du texte clair */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+position: sticky;                 /* Rend le header sticky par defaut */
+top: 0;
+z-index: 1000;                    /* Assure que le header reste au-dessus du contenu */
+background-color: #202325;
+padding: 30px 40px;
+align-items: center;              /* Aligne les éléments verticalement */
+border-bottom: 2px solid #303436;  /* Bordure en bas du header */
+}
+
+header h1 {
+margin: 0;
+color: #E8E6E3;                  /* Change la couleur du texte */
+font-size: 1.75em;               /*Calcul pour une taille de 36px en em: 36/16*/
+}
